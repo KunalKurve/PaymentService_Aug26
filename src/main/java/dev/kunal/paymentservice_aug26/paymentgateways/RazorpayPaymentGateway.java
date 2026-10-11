@@ -10,7 +10,7 @@ import com.razorpay.RazorpayClient;
 import com.razorpay.RazorpayException;
 
 @Component
-@Primary
+//@Primary
 public class RazorpayPaymentGateway implements IPaymentGateway{
 
     @Autowired
